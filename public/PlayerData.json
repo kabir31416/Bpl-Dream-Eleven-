@@ -1,0 +1,61 @@
+[
+  {"playerName":"Virat Kohli","playerContry":"India","playerType":"Batsman","rating":9.5,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm medium","price":1500000},
+  {"playerName":"Babar Azam","playerContry":"Pakistan","playerType":"Batsman","rating":9.3,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1400000},
+  {"playerName":"Joe Root","playerContry":"England","playerType":"Batsman","rating":9.1,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1450000},
+  {"playerName":"Steve Smith","playerContry":"Australia","playerType":"Batsman","rating":9.2,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm legbreak","price":1480000},
+  {"playerName":"Kane Williamson","playerContry":"New Zealand","playerType":"Batsman","rating":9.0,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1420000},
+
+  {"playerName":"Shakib Al Hasan","playerContry":"Bangladesh","playerType":"All-Rounder","rating":9.2,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm orthodox","price":1450000},
+  {"playerName":"Ben Stokes","playerContry":"England","playerType":"All-Rounder","rating":9.0,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm fast-medium","price":1600000},
+  {"playerName":"Hardik Pandya","playerContry":"India","playerType":"All-Rounder","rating":8.8,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast-medium","price":1350000},
+  {"playerName":"Glenn Maxwell","playerContry":"Australia","playerType":"All-Rounder","rating":8.9,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1380000},
+  {"playerName":"Andre Russell","playerContry":"West Indies","playerType":"All-Rounder","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast","price":1500000},
+
+  {"playerName":"Jasprit Bumrah","playerContry":"India","playerType":"Bowler","rating":9.4,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast","price":1550000},
+  {"playerName":"Trent Boult","playerContry":"New Zealand","playerType":"Bowler","rating":8.9,"battingStyle":"Right-hand bat","bowlingStyle":"Left-arm fast-medium","price":1350000},
+  {"playerName":"Shaheen Afridi","playerContry":"Pakistan","playerType":"Bowler","rating":9.1,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm fast","price":1480000},
+  {"playerName":"Mitchell Starc","playerContry":"Australia","playerType":"Bowler","rating":9.0,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm fast","price":1500000},
+  {"playerName":"Kagiso Rabada","playerContry":"South Africa","playerType":"Bowler","rating":8.8,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm fast","price":1400000},
+
+  {"playerName":"Rohit Sharma","playerContry":"India","playerType":"Batsman","rating":9.3,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1500000},
+  {"playerName":"David Warner","playerContry":"Australia","playerType":"Batsman","rating":9.0,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm legbreak","price":1450000},
+  {"playerName":"Quinton de Kock","playerContry":"South Africa","playerType":"Wicketkeeper","rating":8.9,"battingStyle":"Left-hand bat","bowlingStyle":"None","price":1350000},
+  {"playerName":"Jos Buttler","playerContry":"England","playerType":"Wicketkeeper","rating":9.1,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1500000},
+  {"playerName":"KL Rahul","playerContry":"India","playerType":"Wicketkeeper","rating":8.8,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1400000},
+
+  {"playerName":"Mushfiqur Rahim","playerContry":"Bangladesh","playerType":"Wicketkeeper","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1200000},
+  {"playerName":"Tamim Iqbal","playerContry":"Bangladesh","playerType":"Batsman","rating":8.6,"battingStyle":"Left-hand bat","bowlingStyle":"None","price":1250000},
+  {"playerName":"Litton Das","playerContry":"Bangladesh","playerType":"Wicketkeeper","rating":8.5,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1150000},
+  {"playerName":"Mahmudullah","playerContry":"Bangladesh","playerType":"All-Rounder","rating":8.4,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1100000},
+  {"playerName":"Mustafizur Rahman","playerContry":"Bangladesh","playerType":"Bowler","rating":8.7,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm fast-medium","price":1300000},
+
+  {"playerName":"Faf du Plessis","playerContry":"South Africa","playerType":"Batsman","rating":8.8,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm legbreak","price":1350000},
+  {"playerName":"AB de Villiers","playerContry":"South Africa","playerType":"Batsman","rating":9.4,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm medium","price":1550000},
+  {"playerName":"Chris Gayle","playerContry":"West Indies","playerType":"Batsman","rating":8.9,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm offbreak","price":1400000},
+  {"playerName":"Nicholas Pooran","playerContry":"West Indies","playerType":"Wicketkeeper","rating":8.6,"battingStyle":"Left-hand bat","bowlingStyle":"None","price":1200000},
+  {"playerName":"Jason Holder","playerContry":"West Indies","playerType":"All-Rounder","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast-medium","price":1300000},
+
+  {"playerName":"Moeen Ali","playerContry":"England","playerType":"All-Rounder","rating":8.6,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm offbreak","price":1250000},
+  {"playerName":"Sam Curran","playerContry":"England","playerType":"All-Rounder","rating":8.7,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm fast-medium","price":1350000},
+  {"playerName":"Jofra Archer","playerContry":"England","playerType":"Bowler","rating":8.9,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast","price":1400000},
+  {"playerName":"Adil Rashid","playerContry":"England","playerType":"Bowler","rating":8.5,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm legbreak","price":1200000},
+  {"playerName":"Jonny Bairstow","playerContry":"England","playerType":"Wicketkeeper","rating":8.8,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1300000},
+
+  {"playerName":"Rashid Khan","playerContry":"Afghanistan","playerType":"Bowler","rating":9.2,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm legbreak","price":1500000},
+  {"playerName":"Mohammad Nabi","playerContry":"Afghanistan","playerType":"All-Rounder","rating":8.6,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1200000},
+  {"playerName":"Mujeeb Ur Rahman","playerContry":"Afghanistan","playerType":"Bowler","rating":8.5,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1150000},
+  {"playerName":"Najibullah Zadran","playerContry":"Afghanistan","playerType":"Batsman","rating":8.3,"battingStyle":"Left-hand bat","bowlingStyle":"None","price":1100000},
+  {"playerName":"Rahmanullah Gurbaz","playerContry":"Afghanistan","playerType":"Wicketkeeper","rating":8.4,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1150000},
+
+  {"playerName":"Shadab Khan","playerContry":"Pakistan","playerType":"All-Rounder","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm legbreak","price":1300000},
+  {"playerName":"Mohammad Rizwan","playerContry":"Pakistan","playerType":"Wicketkeeper","rating":9.0,"battingStyle":"Right-hand bat","bowlingStyle":"None","price":1400000},
+  {"playerName":"Fakhar Zaman","playerContry":"Pakistan","playerType":"Batsman","rating":8.5,"battingStyle":"Left-hand bat","bowlingStyle":"Right-arm medium","price":1200000},
+  {"playerName":"Haris Rauf","playerContry":"Pakistan","playerType":"Bowler","rating":8.6,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast","price":1250000},
+  {"playerName":"Imad Wasim","playerContry":"Pakistan","playerType":"All-Rounder","rating":8.4,"battingStyle":"Left-hand bat","bowlingStyle":"Left-arm orthodox","price":1150000},
+
+  {"playerName":"Daryl Mitchell","playerContry":"New Zealand","playerType":"All-Rounder","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm medium","price":1300000},
+  {"playerName":"Devon Conway","playerContry":"New Zealand","playerType":"Batsman","rating":8.8,"battingStyle":"Left-hand bat","bowlingStyle":"None","price":1350000},
+  {"playerName":"Tim Southee","playerContry":"New Zealand","playerType":"Bowler","rating":8.6,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast-medium","price":1250000},
+  {"playerName":"Lockie Ferguson","playerContry":"New Zealand","playerType":"Bowler","rating":8.7,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm fast","price":1300000},
+  {"playerName":"Martin Guptill","playerContry":"New Zealand","playerType":"Batsman","rating":8.5,"battingStyle":"Right-hand bat","bowlingStyle":"Right-arm offbreak","price":1200000}
+]
