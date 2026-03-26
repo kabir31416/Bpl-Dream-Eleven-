@@ -3,9 +3,9 @@ import Logo from '../../assets/logo.png'
 import DollarImg from '../../assets/dollar.png'
 
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
     return (
-        <nav className='flex justify-between p-5'>
+        <div className='flex justify-between p-5 container mx-auto'>
                 <img src={Logo} />
                 <div className='flex items-center gap-5'>
                   <ul className='flex gap-12'>
@@ -14,9 +14,9 @@ const Navbar = () => {
                     <li><a href="/">Team</a></li>
                     <li><a href="/">Schedule</a></li>
                   </ul>
-                  <button className='btn flex'>0 Coins <img src={DollarImg}/></button>
+                  <button className='btn flex'>{coin} Coins <img src={DollarImg}/></button>
                 </div>
-              </nav>
+        </div>
     );
 };
 

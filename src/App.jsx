@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Navbar from './component/Navebar/Navbar'
 import PlayerCard from './component/Player/PlayerCard'
@@ -12,23 +12,23 @@ const loadPlayer = async() => {
 }
 
 
-
 function App() {
 
   const playerPromise = loadPlayer()
   
+  const [coin, setCoin] = useState(500000)
   
   return (
     <>
     
-    <header className="max-w-400 mx-auto px-4">
-     <Navbar></Navbar>
+    <header>
+     <Navbar coin={coin}></Navbar>
    </header>
 
-   <main className="max-w-400 mx-auto px-4">
+   <main>
      
     <Suspense fallback={'Data is loading...'}>
-      <PlayerCard playerPromise={playerPromise} > </PlayerCard>
+      <PlayerCard playerPromise={playerPromise} setCoin={setCoin} coin={coin} > </PlayerCard>
     </Suspense>
 
    </main>
