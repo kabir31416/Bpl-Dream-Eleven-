@@ -1,7 +1,7 @@
 
 import Cards from './Cards';
 
-const PlayerSingleCard = ({players, setCoin, coin={coin}}) => {
+const PlayerSingleCard = ({players, setCoin, coin, setSelectedPlayer, selectedPlayer}) => {
 
     
 
@@ -12,7 +12,7 @@ const PlayerSingleCard = ({players, setCoin, coin={coin}}) => {
             {
                 players.map( player => {
                     return (
-                        <Cards player={player} setCoin={setCoin} coin={coin}></Cards>
+                        <Cards key={player.playerName} player={player} setCoin={setCoin} coin={coin} setSelectedPlayer={setSelectedPlayer} selectedPlayer={selectedPlayer}></Cards>
                     )
                     })
             }

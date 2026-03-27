@@ -1,15 +1,35 @@
-import React, { useState } from 'react';
+
 import { Flag, UserRound } from 'lucide-react';
+import SelectedPlayers from './SelectedPlayers';
+import { toast } from 'react-toastify';
 
-const Cards = ({player, setCoin, coin}) => {
+const Cards = ({player, setCoin, coin, setSelectedPlayer, selectedPlayer}) => {
 
 
-    const [isSelected, setIsSelected] = useState(false)
+    const isAlreadySelected = selectedPlayer.some(p => p.playerName === player.playerName);
+
 
     const handleButton = () => {
-        setIsSelected(true) 
-        setCoin(coin - player.price)
+        let newCoin = coin - player.price;
+        if (newCoin >=0){
+            setCoin(coin - player.price)
+        }
+        else{
+            toast("Not enough coin")
+            return
+        }
+
+        if (isAlreadySelected) {
+            toast.error("Player already selected");
+            return;
+        }
+
+        toast(`${player.playerName} is selected`)
+        setSelectedPlayer([...selectedPlayer, player])
+
     }
+
+
 
     return (
         <div className="bg-base-100  shadow-md border rounded-2xl">
@@ -44,9 +64,11 @@ const Cards = ({player, setCoin, coin}) => {
                                 <p className="font-semibold">Price: {player.price}</p>
 
                                 <button 
-                                onClick={handleButton} 
-                                className="btn btn-sm btn-outline" disabled={isSelected ? true : false}>
-                                {isSelected === false ? "Choose Player" : "Selected"}
+                                    onClick={handleButton} 
+                                    className="btn btn-sm btn-outline" 
+                                    disabled={isAlreadySelected} 
+                                >
+                                    {isAlreadySelected ? "Selected" : "Choose Player"}
                                 </button>
 
                                 </div>

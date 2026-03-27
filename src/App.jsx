@@ -3,6 +3,8 @@ import { Suspense, useState } from 'react'
 import './App.css'
 import Navbar from './component/Navebar/Navbar'
 import PlayerCard from './component/Player/PlayerCard'
+import { ToastContainer } from 'react-toastify'
+
 
 
 
@@ -33,6 +35,7 @@ function App() {
 
    </main>
 
+    <ToastContainer />
       
     </>
   )
